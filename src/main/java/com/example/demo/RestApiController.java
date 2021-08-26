@@ -16,7 +16,7 @@ public class RestApiController {
 
         LocalTime myObj = LocalTime.now();
         System.out.println(myObj);
-        return "Current time in local is :"+myObj;
+        return "This is now updated with a github commit -- can you see  :"+myObj;
     }
 
 }
